@@ -22,7 +22,7 @@ content-background = ${color.background}
 content-foreground = ${color.foreground_blue}
 content-padding = 0
 click-left = "$HOME/.local/bin/Search-Tube/mpv-youtube-playlist.sh" &
-click-right = "$HOME/.local/bin/Search-Tube/mpv-youtube-kill.sh" &
+click-middle = "$HOME/.local/bin/Search-Tube/mpv-youtube-kill.sh" &
 ```
 
 ```python
