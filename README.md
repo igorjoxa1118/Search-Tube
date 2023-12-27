@@ -3,6 +3,8 @@
 PKGBUILD
 
 ```python
+git clone https://github.com/igorjoxa1118/Search-Tube.git
+cd Search-Tube
 makepkg -s
 sudo pacman -U [pakage.zst]
 ```
