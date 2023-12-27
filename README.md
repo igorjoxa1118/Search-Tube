@@ -3,6 +3,7 @@
 PKGBUILD
 
 ```python
+sudo pacman -S mpv yad
 git clone https://github.com/igorjoxa1118/Search-Tube.git
 cd Search-Tube
 makepkg -s
