@@ -20,9 +20,9 @@ package() {
   install -dm755 "${pkgdir}/$HOME/.local/bin/Search-Tube"
   cd ${srcdir}/${pkgname}
 
-  sed -i -e 's%/Exec=sh /home/eddy/.config/i3/scripts/polybar-mpv/mpv-youtube-playlist.sh|Exec=sh '$local'/mpv-youtube-playlist.sh/%g' scripts/search-tube.desktop
-  sed -i -e 's%/Icon=/home/eddy/.config/i3/scripts/polybar-mpv/icons/youtube.svg|Icon='$local'/youtube.svg/%g' scripts/search-tube.desktop
-  sed -i -e 's%/Path=/home/eddy/.config/i3/scripts/polybar-mpv/|Path='$local'/%g' scripts/search-tube.desktop
+  sed -i -e 's%/Exec=sh /home/eddy/.config/i3/scripts/polybar-mpv/mpv-youtube-playlist.sh|Exec=sh '$local'/mpv-youtube-playlist.sh/' scripts/search-tube.desktop
+  sed -i -e 's%/Icon=/home/eddy/.config/i3/scripts/polybar-mpv/icons/youtube.svg|Icon='$local'/youtube.svg/' scripts/search-tube.desktop
+  sed -i -e 's%/Path=/home/eddy/.config/i3/scripts/polybar-mpv/|Path='$local'/' scripts/search-tube.desktop
 
   cp -r scripts/*.sh ${pkgdir}/$HOME/.local/bin/Search-Tube
   cp -r scripts/search-tube.desktop ${pkgdir}/usr/share/applications
