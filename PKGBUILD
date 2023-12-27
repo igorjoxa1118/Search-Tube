@@ -14,7 +14,7 @@ sha256sums=('SKIP')
 
 package() {
    
-   local="$HOME'/.local/bin/Search-Tube"
+   local="$HOME/.local/bin/Search-Tube"
 
   install -dm755 "${pkgdir}/usr/share/applications"
   install -dm755 "${pkgdir}/$HOME/.local/bin/Search-Tube"
