@@ -1,5 +1,12 @@
 # Search-Tube
 
+PKGBUILD
+
+```python
+makepkg -s
+sudo pacman -U [pakage.zst]
+```
+
 Polybar module for i3
 
 ```python
