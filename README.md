@@ -1,6 +1,6 @@
 # Search-Tube
 
-PKGBUILD
+PKGBUILD must be built. If not, then the paths to the scripts may not be correct
 
 ```python
 sudo pacman -S mpv yad
