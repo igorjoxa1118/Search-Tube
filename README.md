@@ -3,7 +3,7 @@
 PKGBUILD must be built. If not, then the paths to the scripts may not be correct
 
 ```python
-sudo pacman -S mpv yad
+sudo pacman -S mpv yad socat
 yay -S zscroll-git
 yay -S ytdlp-gui
 git clone https://github.com/igorjoxa1118/Search-Tube.git
