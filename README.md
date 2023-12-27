@@ -51,7 +51,7 @@ format-background = ${color.background}
 Polybar config.ini
 
 ```python
-modules-left =  mpv-prev mpv-next
+modules-left = mpv mpv-prev mpv-next
 modules-center = mpv-youtube-icon
 modules-right = 
 ```
