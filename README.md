@@ -24,6 +24,9 @@ click-left = echo 'cycle pause' | socat - /tmp/mpv_socket
 click-right = "$HOME/.local/bin/Search-Tube/mpv-youtube-kill.sh"
 scroll-up = "$HOME/.local/bin/Search-Tube/polybar-mpv/mpv.sh" --volume-up
 scroll-down = "$HOME/.local/bin/Search-Tube/polybar-mpv/mpv.sh" --volume-down
+format-foreground = #2ac3de
+format-background = #16161E
+format-underline = #2ac3de
 ```
 
 ```python
@@ -32,6 +35,8 @@ type = custom/script
 exec-if = pidof mpv
 exec = echo " "
 click-left = echo 'playlist-prev' | socat - /tmp/mpv_socket
+format-foreground = #2ac3de
+format-background = #16161E
 ```
 
 ```python
@@ -40,6 +45,8 @@ type = custom/script
 exec-if = pidof mpv
 exec = echo " "
 click-left = echo 'playlist-next' | socat - /tmp/mpv_socket
+format-foreground = #2ac3de
+format-background = #16161E
 ```
 Polybar config.ini
 
