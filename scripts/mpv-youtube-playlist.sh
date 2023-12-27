@@ -14,7 +14,7 @@ export -f close_exit
 input=$(yad \
  --title="Search-tube" \
  --text="Press Enter:" \
- --image="$HOME/.config/i3/scripts/polybar-mpv/icons/youtube.svg" \
+ --image="$HOME/.local/bin/Search-Tube/icons/youtube.svg" \
  --icon-size=48 \
  --form \
  --field="  Your track or playlist URL:  " \
@@ -44,7 +44,7 @@ export -f close_exit
 input=$(yad \
  --title="Search-tube" \
  --text="Press Enter:" \
- --image="$HOME/.config/i3/scripts/polybar-mpv/icons/youtube.svg" \
+ --image="$HOME/.local/bin/Search-Tube/icons/youtube.svg" \
  --icon-size=48 \
  --form \
  --field="  Your video or playlist URL:  " \
@@ -79,14 +79,14 @@ export -f close
 endoff=$(yad \
    --title="Search-tube" \
    --text="What are you want?" \
-   --image="$HOME/.config/i3/scripts/polybar-mpv/icons/youtube.svg" \
+   --image="$HOME/.local/bin/Search-Tube/icons/youtube.svg" \
    --text-align=center \
    --fixed \
    --width=280 \
    --height=100 \
    --button-align=center \
-   --button="!$HOME/.config/i3/scripts/polybar-mpv/icons/window-close.svg!Exit:bash -c close_exit_sec" \
-   --button="!$HOME/.config/i3/scripts/polybar-mpv/icons/go-down-skip.svg!Close:bash -c close" \
-   --button="!$HOME/.config/i3/scripts/polybar-mpv/icons/audio-volume-medium.svg!Audio:bash -c mpv_audio" \
-   --button="!$HOME/.config/i3/scripts/polybar-mpv/icons/filmgrain.svg!Video:bash -c mpv_video" \
+   --button="!$HOME/.local/bin/Search-Tube/icons/window-close.svg!Exit:bash -c close_exit_sec" \
+   --button="!$HOME/.local/bin/Search-Tube/icons/go-down-skip.svg!Close:bash -c close" \
+   --button="!$HOME/.local/bin/Search-Tube/icons/audio-volume-medium.svg!Audio:bash -c mpv_audio" \
+   --button="!$HOME/.local/bin/Search-Tube/icons/filmgrain.svg!Video:bash -c mpv_video" \
    --separator="\t")
