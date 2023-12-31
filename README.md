@@ -19,8 +19,8 @@ Polybar module for i3
 type = custom/text
 content = " "
 content-font = 0
-content-background = ${color.background}
-content-foreground = ${color.foreground_blue}
+content-background = #16161E
+content-foreground = #2ac3de
 content-padding = 0
 click-left = "$HOME/.local/bin/Search-Tube/mpv-youtube-playlist.sh" &
 click-middle = "$HOME/.local/bin/Search-Tube/mpv-youtube-kill.sh" &
